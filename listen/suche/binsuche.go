@@ -17,11 +17,11 @@ func BinSearch(list []int, key int) int {
 	}
 
 	if key < list[m] {
-		pos := Search(list[:m], key)
+		pos := BinSearch(list[:m], key)
 		if pos == len(list[:m]) {
 			return len(list)
 		}
 		return pos
 	}
-	return m + Search(list[m+1:], key) + 1
+	return m + BinSearch(list[m+1:], key) + 1
 }
