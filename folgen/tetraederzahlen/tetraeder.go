@@ -1,6 +1,6 @@
 package tetraederzahlen
 
-import "github.com/reinerhuechting-courses/go.aufgaben-rekursion/folgen/dreieckszahlen"
+import "github.com/tel22a-inf/aufgaben_rekursion_2/folgen/dreieckszahlen"
 
 // Tetraeder berechnet für ein gegebenes n die n-te Tetraederzahl.
 // Für die konkreten Zahlenwerte: siehe Tests.

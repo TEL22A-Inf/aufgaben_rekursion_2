@@ -1,3 +1,3 @@
-module github.com/reinerhuechting-courses/go.aufgaben-rekursion
+module github.com/tel22a-inf/aufgaben_rekursion_2
 
 go 1.19
