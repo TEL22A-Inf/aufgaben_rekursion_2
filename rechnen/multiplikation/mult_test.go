@@ -7,10 +7,12 @@ func ExampleMult() {
 	fmt.Println(Mult(21, 2))
 	fmt.Println(Mult(2, 0))
 	fmt.Println(Mult(2, 1))
+	fmt.Println(Mult(2, -1))
 
 	// Output:
 	// 12
 	// 42
 	// 0
 	// 2
+	// -2
 }
