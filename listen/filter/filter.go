@@ -2,24 +2,25 @@ package filter
 
 // Liefert eine Liste mit allen Elementen aus list, die kleiner oder gleich key sind.
 func FilterLess(list []int, key int) []int {
-	if len(list) == 0 {
-		return []int{}
-	}
-	head, tail := list[0], FilterLess(list[1:], key)
-	if head <= key {
-		return append([]int{head}, tail...)
-	}
-	return tail
+	// TODO
+
+	// Hinweis:
+	// Unterscheiden Sie zwei Fälle:
+	// 1. Die Liste ist leer.
+	// 2. Die Liste besteht aus einem Element und einer Folgeliste.
+	//    Im zweiten Fall müssen Sie entscheiden, ob das erste Element zum Ergebnis
+	//    hinzugefügt werden soll.
+
+	// nil ist ein Platzhalter für eine nicht-existente Liste.
+	// Ersetzen Sie nil durch etwas sinnvolles.
+	return nil
 }
 
 // Liefert eine Liste mit allen Elementen aus list, die größer als key sind.
 func FilterGreater(list []int, key int) []int {
-	if len(list) == 0 {
-		return []int{}
-	}
-	head, tail := list[0], FilterGreater(list[1:], key)
-	if head > key {
-		return append([]int{head}, tail...)
-	}
-	return tail
+	// TODO
+
+	// Hinweis:
+	// Gehen Sie analog zu FilterLess vor.
+	return nil
 }

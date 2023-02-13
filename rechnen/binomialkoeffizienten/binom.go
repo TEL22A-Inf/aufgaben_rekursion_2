@@ -8,13 +8,14 @@ func BinomialCoefficient(n, k int) int {
 	// Diese Berechnungsvorschrift können Sie direkt in eine Rekursion umsetzen,
 	// Sie müssen nur noch den Rekursionsanfang hinzufügen.
 	//
-	// Anmerkung: Diese Berechnungsvorschrift beschreibte exakt das Pascalsche Dreieck!
+	// Anmerkung: Diese Berechnungsvorschrift beschreibt exakt das Pascalsche Dreieck!
 
-	if n == 0 {
-		return 1
-	}
-	if k == 0 || k == n {
-		return 1
-	}
-	return BinomialCoefficient(n-1, k-1) + BinomialCoefficient(n-1, k)
+	// TODO
+
+	// Hinweis:
+	// Unterscheiden Sie, ob Sie am Rand oder in der Mitte des pascalschen Dreiecks
+	// sind. Bei n == 0, k==0 oder k==n ist das Ergebnis sofort klar, ansonsten
+	// können Sie rekursiv weitermachen.
+
+	return 0
 }

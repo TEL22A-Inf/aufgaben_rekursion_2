@@ -3,10 +3,8 @@ package dreieckszahlen
 // Dreieck berechnet für ein gegebenes n die n-te Dreieckszahl.
 // Dies ist die Summe der Zahlen von 1 bis n.
 func Dreieck(n int) int {
-	if n == 1 {
-		return 1
-	}
-	return n + Dreieck(n-1)
+	// TODO
+	return 0
 }
 
 // Anmerkung:

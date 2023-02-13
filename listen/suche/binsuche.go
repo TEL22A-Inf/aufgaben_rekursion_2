@@ -11,17 +11,12 @@ func BinSearch(list []int, key int) int {
 		return 0
 	}
 
-	m := len(list) / 2
-	if list[m] == key {
-		return m
-	}
+	// TODO
 
-	if key < list[m] {
-		pos := Search(list[:m], key)
-		if pos == len(list[:m]) {
-			return len(list)
-		}
-		return pos
-	}
-	return m + Search(list[m+1:], key) + 1
+	// Hinweis:
+	// Bestimmen Sie zuerst die mittlere Position und vergleichen Sie das dortige
+	// Element mit key. Danach fahren Sie je nach Wert des Elements rekursiv mit dem
+	// linken und dem rechten Teil der Liste fort.
+
+	return 0
 }

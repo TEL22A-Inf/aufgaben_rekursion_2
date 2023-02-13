@@ -1,14 +1,10 @@
 package tetraederzahlen
 
-import "github.com/tel22a-inf/aufgaben_rekursion_2/folgen/dreieckszahlen"
-
 // Tetraeder berechnet für ein gegebenes n die n-te Tetraederzahl.
 // Für die konkreten Zahlenwerte: siehe Tests.
 func Tetraeder(n int) int {
-	if n == 1 {
-		return 1
-	}
-	return dreieckszahlen.Dreieck(n) + Tetraeder(n-1)
+	// TODO
+	return 0
 }
 
 // Anmerkung:
